@@ -3,6 +3,7 @@ Author:     Brian Mascitello
 Date:       12/7/2017
 Websites:   http://adventofcode.com/2017/day/7
 Info:       --- Day 7: Recursive Circus ---
+            --- Part Two ---
 """
 
 from anytree import Node, RenderTree, ZigZagGroupIter
