@@ -45,7 +45,7 @@ def score_calculator(input_text):
     return score
 
 
-data = get_data('Day9Q1 Input 2017.txt')
+data = get_data('Day9Q1 2017 Input.txt')
 
 data = clean_data(data)
 
