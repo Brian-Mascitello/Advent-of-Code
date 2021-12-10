@@ -23,10 +23,10 @@ def main():
 
     digits_appear = 0
     for value in io_dict.values():
-        signal_input = value.split()
-        input_lengths = list(map(len, signal_input))
+        signal_output = value.split()
+        output_lengths = list(map(len, signal_output))
 
-        for length in input_lengths:
+        for length in output_lengths:
             if length in [2, 3, 4, 7]:
                 digits_appear += 1
 
